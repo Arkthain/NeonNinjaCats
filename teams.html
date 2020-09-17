@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="websiteformatting.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the teams! - NNC</title>
+</head>
+<body>
+    <nav id="navBar">
+        <div id="navitems">
+            <img id="icon" src="images/NNC.png">
+            <a class="large" href="mainPage.html">Home</a>
+            <a class="large" href="teams.html">Our Teams</a>
+            <a class="large" href="facility.html">Our facility</a>
+            <a class="large" href="socials.html">Socials</a>
+        </div>
+    </nav>
+    <h1>Meet our teams!</h1>
+    <div id="teamPage">
+
+        <div id="teamsSidebar">
+            <button class="teambutton" onclick="lol()">League of legends</button>
+            <button class="teambutton" onclick="dota()">DOTA 2</button>
+            <button class="teambutton" onclick="csgo()">CSGO</button>
+            <button class="teambutton" onclick="r6()">Rainbow Six Siege</button>
+        </div>
+        <div id="teamDisplay">
+            <div id="leagueteam">
+                <img src="images/team3.png" alt="Team1">
+            </div>
+            <div id="dotateam">
+                <img src="images/team2.png" alt="Team2">
+            </div>
+            <div id="csgoteam">
+                <img src="images/team1.png" alt="Team3">
+            </div>
+            <div id="r6team">
+                <img src="images/team4.png" alt="Team4">
+            </div>
+        </div>
+    </div>
+<script>
+    function lol() {
+        var x = document.getElementById("leagueteam");
+        if (x.style.display === "none") {
+        x.style.display = "block";
+        } else {
+        x.style.display = "none";
+        }
+    }
+</script>
+<script>
+    function dota() {
+        var x = document.getElementById("dotateam");
+        if (x.style.display === "none") {
+        x.style.display = "block";
+        } else {
+        x.style.display = "none";
+        }
+    }
+</script>
+<script>
+    function csgo() {
+        var x = document.getElementById("csgoteam");
+        if (x.style.display === "none") {
+        x.style.display = "block";
+        } else {
+        x.style.display = "none";
+        }
+    }
+</script>
+<script>
+    function r6() {
+        var x = document.getElementById("r6team");
+        if (x.style.display === "none") {
+        x.style.display = "block";
+        } else {
+        x.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>
